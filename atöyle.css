@@ -1,0 +1,96 @@
+
+body img {
+    width: 75px;
+    height: 75px;
+    margin: 1%;
+  }
+
+
+.baslık h2 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.kutular-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ust-kutular,
+.alt-kutular {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.kutu {
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px;
+    background-image: url(image/foto1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.kutu h5 {
+    font-size: 15px;
+    color: white;
+}
+.kutu p {
+    font-size: 12px;
+    color: white;
+}
+
+.box-button {
+    justify-content:space-between;
+    margin-top: 10px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+}
+
+[data-target] {
+    cursor: pointer;
+}
+
+[data-target]:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.kutu1 {
+    background-image: url(image/foto10.jpg);   
+}
+.kutu2 {
+    background-image: url(image/foto17.jpg);
+}
+.kutu3 {
+    background-image: url(image/foto15.jpg);
+}
+.kutu4 {
+    background-image: url(image/heykel.jpg);
+}
+.kutu5 {
+    background-image: url(image/mosaic.jpg);
+}
+.kutu6 {
+    background-image: url(image/kintsugi.jpeg);
+}
+.kutu7 {
+    background-image: url(image/resim.jpg);
+}
+.kutu8 {
+    background-image: url(image/müzik.jpg);
+}
+

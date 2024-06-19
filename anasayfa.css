@@ -1,0 +1,141 @@
+
+/*İncele butonuna kadar*/
+body {
+    background-image: url(image/arkaplan4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+
+  body img {
+    width: 75px;
+    height: 75px;
+    margin: 1%;
+  }
+  .text-container {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 250px;
+    color: white;
+   
+
+}
+.text-container h1 {
+    font-size: 80px;
+}
+
+.text-container p {
+    font-size: 20px;
+}
+.text-container h1, .text-container p {
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    width: 80px;
+    color: black;
+    font-size: 15px;
+    padding: 15px 0;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.baslik-ve-kutular {
+    display: flex;
+    justify-content: center; 
+} 
+
+.text-container {
+    text-align: center;
+    color: white;
+} 
+
+.text-container h1{
+    font-size: 150px;
+}
+
+/*İncele butonuna kadar*/
+
+
+
+
+
+.kutular-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 30px;
+}
+
+.ust-kutular, .alt-kutular {
+    display: flex;
+}
+
+.kutu {
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+   padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px;
+    background-image: url(image/foto1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.kutu h5 {
+    font-size: 15px;
+    color: white;
+}
+.kutu p {
+    font-size: 12px;
+    color: white;
+}
+
+.kutu1 {
+    background-image: url(image/foto8.jpg);   
+}
+.kutu2 {
+    background-image: url(image/foto2.jpg);
+}
+.kutu3 {
+    background-image: url(image/foto5.jpg);
+}
+.kutu4 {
+    background-image: url(image/foto6.jpg);
+}
+
+.baslık h2 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+.sutunlar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sutun {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.sutun p {
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    padding: 15px;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: rgb(78, 71, 78, 0.8);
+}

@@ -1,0 +1,95 @@
+.baslık h2 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.kutular-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ust-kutular,
+.alt-kutular {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.kutu {
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px;
+    background-image: url(image/foto1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.kutu h5 {
+    font-size: 15px;
+    color: white;
+}
+.kutu p {
+    font-size: 12px;
+    color: white;
+}
+
+.box-button {
+    justify-content:space-between;
+    margin-top: 10px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+}
+
+
+[data-target] {
+    cursor: pointer;
+}
+
+[data-target]:hover {
+    text-decoration: underline;
+}
+
+
+
+.kutu1 {
+    background-image: url(image/set.jpeg);   
+}
+.kutu2 {
+    background-image: url(image/alçı.jpg);
+}
+.kutu3 {
+    background-image: url(image/kil.jpg);
+}
+.kutu4 {
+    background-image: url(image/eser1.jpg);
+}
+.kutu5 {
+    background-image: url(image/eser5.jpg);
+}
+.kutu6 {
+    background-image: url(image/eser2.jpg);
+}
+.kutu7 {
+    background-image: url(image/eser6.jpg);
+}
+.kutu8 {
+    background-image: url(image/eser3.jpg);
+}
+.kutu9 {
+    background-image: url(image/eser7.jpg);
+}
+.kutu10 {
+    background-image: url(image/eser4.jpg);
+}
+.kutu11 {
+    background-image: url(image/eser8.jpg);
+}
